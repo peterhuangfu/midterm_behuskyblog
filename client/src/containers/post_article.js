@@ -8,6 +8,7 @@ export default class DeleteArticle extends Component {
     }
 
     componentDidMount() {
+        window.scrollTo(0,0);
         fetch('http://localhost:3001/api/getArticle')
         .then(res => { return res.json() })
         .then(res => { 

@@ -7,6 +7,7 @@ export default class UpdateArticle extends Component {
         this.state = { id: '', author: '', title: '', content: '', img_source: '', time: '' };
     }
     componentDidMount() {
+        window.scrollTo(0,0);
         const { id } = this.props.match.params;
         let trans = { id: id };
         fetch('http://localhost:3001/api/getOneArticle', {

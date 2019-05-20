@@ -6,6 +6,7 @@ export default class UpdateProfile extends Component {
         this.state = { id: '', content: '', img_source: '' };
     }
     componentDidMount() {
+        window.scrollTo(0,0);
         fetch('http://localhost:3001/api/getProfile')
         .then(res => { return res.json() })
         .then(originData => {
