@@ -13,7 +13,7 @@ github：https://github.com/peterhuangfu/WebProg2019_Midterm.git
 
 # 4. 使用 / 操作方式
 
-(1) utilize heroku repo
+(1) use heroku repo  
 (2)
 ```
 git clone
